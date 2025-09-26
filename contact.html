@@ -1,51 +1,59 @@
 <html>
 <head>
-<title>Contact - Road to Greatness</title>
+  <title>Contact - Road to Greatness</title>
+  <link rel="stylesheet" href="CSS/contact.css">
 </head>
-<body background="Images/bg.jpg">
-<font color="white">
+<body>
 
-<!-- Navigation -->
-<div align="center">
-  <table width="100%" border="0">
-    <tr align="center">
-      <td><a href="index.html"><font color="white">Home</font></a></td>
-      <td><a href="about.html"><font color="white">About</font></a></td>
-      <td><a href="player.html"><font color="white">Players</font></a></td>
-      <td><a href="club.html"><font color="white">Clubs</font></a></td>
-      <td><a href="contact.html"><font color="white">Contact</font></a></td>
-    </tr>
-  </table>
-</div>
+<header>
+  <nav>
+    <ul>
+      <li><a href="Page 1.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="player.html">Players</a></li>
+      <li><a href="club.html">Clubs</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-<hr>
+<section class="hero">
+  <div class="hero-content">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you!</p>
+  </div>
+</section>
 
-<div align="center">
-  <h1>Contact Us</h1>
+<section class="contact-info">
   <p>Email: info@roadtogreatness.org</p>
   <p>Phone: +27 123 456 7890</p>
   <p>Address: Johannesburg, South Africa</p>
+</section>
 
+<section class="form-section">
   <h3>Send us a message</h3>
   <form>
-    <table border="0" cellpadding="10">
-      <tr><td>Name:</td><td><input type="text"></td></tr>
-      <tr><td>Email:</td><td><input type="email"></td></tr>
-      <tr><td>Message:</td><td><textarea rows="5" cols="30"></textarea></td></tr>
-    </table>
-    <br>
-    <button type="submit">Send</button>
+    <label>Name</label>
+    <input type="text">
+
+    <label>Email</label>
+    <input type="email">
+
+    <label>Message</label>
+    <textarea rows="5"></textarea>
+
+    <button type="submit" class="btn">Send</button>
   </form>
+
   <h3>Our Location</h3>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114764.00079022537!2d28.011704126455122!3d-25.98852970052589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9571fd4965198b%3A0x87b2105c1c8bfe22!2sMidrand!5e0!3m2!1sen!2sza!4v1756330122298!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114764.00079022537!2d28.011704126455122!3d-25.98852970052589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9571fd4965198b%3A0x87b2105c1c8bfe22!2sMidrand!5e0!3m2!1sen!2sza!4v1756330122298!5m2!1sen!2sza" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
 
-<hr>
-
-<footer align="center">
+<footer>
   <p>&copy; 2025 Road to Greatness | All Rights Reserved</p>
 </footer>
 
-</font>
 </body>
 </html>
+
+
