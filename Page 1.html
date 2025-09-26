@@ -1,73 +1,60 @@
 <html>
 <head>
-<title>Road to Greatness</title>
+  <title>Road to Greatness</title>
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
-<body background="Images/bg.jpg">
-<font color="white">
+<body>
 
-<!-- Header Navigation -->
-<div align="center">
-  <table width="100%" border="0">
-    <tr align="center">
-      <td><a href="index.html"><font color="white">Home</font></a></td>
-      <td><a href="about.html"><font color="white">About</font></a></td>
-      <td><a href="player.html"><font color="white">Players</font></a></td>
-      <td><a href="club.html"><font color="white">Clubs</font></a></td>
-      <td><a href="contact.html"><font color="white">Contact</font></a></td>
-    </tr>
-  </table>
-</div>
+<header>
+  <nav>
+    <ul>
+      <li><a href="Page 1.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="player.html">Players</a></li>
+      <li><a href="club.html">Clubs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-<hr>
+<section class="hero">
+  <div class="hero-content">
+    <h1>Road to Greatness</h1>
+    <p>Inspiring the next generation of footballers</p>
+    <a href="player.html" class="btn">Join as Player</a>
+    <a href="club.html" class="btn secondary">Join as Club</a>
+  </div>
+</section>
 
-<div align="center" id="home">
-  <img src="Images/Road_to_Greatness_Logo.jpg" width="150" height="150"><br>
-  <h1>Road to Greatness</h1>
-  <p><b>Inspiring the next generation of footballers</b></p>
-  <img src="Images/YouthPlayingSoccer.jpg" width="900" height="450" alt="Young boys playing soccer"><br><br>
-  <a href="player.html"><button>Join as Player</button></a>
-  <a href="club.html"><button>Join as Club</button></a>
-</div>
-
-<hr>
-
-<div align="center" id="programs">
+<section class="programs">
   <h2>Our Programs</h2>
-  <table width="90%" border="0" cellspacing="20" cellpadding="10">
-    <tr align="center">
-      <td>
-        <h3>Player Hub</h3>
-        <img src="Images/BallWithSoccerBoots.jpg" width="300" height="200">
-        <p>Helping young players showcase their talent and connect with opportunities.</p>
-        <a href="player.html"><button>Learn More</button></a>
-      </td>
-      <td>
-        <h3>Club Hub</h3>
-        <img src="Images/Coach.jpg" width="300" height="200">
-        <p>Providing clubs with access to passionate talent across South Africa.</p>
-        <a href="club.html"><button>Learn More</button></a>
-      </td>
-    </tr>
-  </table>
-</div>
+  <div class="cards">
+    <div class="card">
+      <img src="Images/PlayerHub.jpg" alt="Player Hub">
+      <h3>Player Hub</h3>
+      <p>Helping young players showcase their talent and connect with opportunities.</p>
+      <a href="player.html" class="btn small">Learn More</a>
+    </div>
+    <div class="card">
+      <img src="Images/ClubHub.jpg" alt="Club Hub">
+      <h3>Club Hub</h3>
+      <p>Providing clubs with access to passionate talent across South Africa.</p>
+      <a href="club.html" class="btn small">Learn More</a>
+    </div>
+  </div>
+</section>
 
-<hr>
-
-<!-- Mission and Vision -->
-<div align="center">
+<section class="mission">
   <h2>Our Mission & Vision</h2>
   <p>
     Our mission is to close the gap between South Africa and top football nations by starting with our youth. 
     Our vision is to create a system where no talent goes unnoticed.
   </p>
-</div>
+</section>
 
-<hr>
-
-<footer align="center">
+<footer>
   <p>&copy; 2025 Road to Greatness | All Rights Reserved</p>
 </footer>
 
-</font>
 </body>
 </html>
