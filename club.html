@@ -1,48 +1,54 @@
 <html>
 <head>
-<title>Club Registration - Road to Greatness</title>
+  <title>Club Registration - Road to Greatness</title>
+  <link rel="stylesheet" href="CSS/club.css">
 </head>
-<body background="Images/bg.jpg">
-<font color="white">
+<body>
 
-<!-- Navigation -->
-<div align="center">
-  <table width="100%" border="0">
-    <tr align="center">
-      <td><a href="index.html"><font color="white">Home</font></a></td>
-      <td><a href="about.html"><font color="white">About</font></a></td>
-      <td><a href="player.html"><font color="white">Players</font></a></td>
-      <td><a href="club.html"><font color="white">Clubs</font></a></td>
-      <td><a href="contact.html"><font color="white">Contact</font></a></td>
-    </tr>
-  </table>
-</div>
+<header>
+  <nav>
+    <ul>
+      <li><a href="Page 1.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="player.html">Players</a></li>
+      <li><a href="club.html" class="active">Clubs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-<hr>
+<section class="hero">
+  <div class="hero-content">
+    <h1>Club Registration</h1>
+    <p>Find the next generation of football talent in South Africa.</p>
+  </div>
+</section>
 
-<div align="center">
-  <h1>Club Registration</h1>
-  <p>Find the next generation of football talent in South Africa.</p>
-
+<section class="form-section">
   <form>
-    <table border="0" cellpadding="10">
-      <tr><td>Club Name:</td><td><input type="text"></td></tr>
-      <tr><td>Location:</td><td><input type="text"></td></tr>
-      <tr><td>Representative:</td><td><input type="text"></td></tr>
-      <tr><td>Email:</td><td><input type="email"></td></tr>
-      <tr><td>Phone:</td><td><input type="text"></td></tr>
-    </table>
-    <br>
-    <button type="submit">Submit</button>
+    <label>Club Name</label>
+    <input type="text">
+
+    <label>Location</label>
+    <input type="text">
+
+    <label>Representative</label>
+    <input type="text">
+
+    <label>Email</label>
+    <input type="email">
+
+    <label>Phone</label>
+    <input type="text">
+
+    <button type="submit" class="btn">Submit</button>
   </form>
-</div>
+</section>
 
-<hr>
-
-<footer align="center">
+<footer>
   <p>&copy; 2025 Road to Greatness | All Rights Reserved</p>
 </footer>
 
-</font>
 </body>
 </html>
+
